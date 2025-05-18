@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once 'vendor/autoload.php';
 
 // --- (1) GLOBAL CONFIGURATION AND DEFINITIONS ---
-define('GOOGLE_API_KEY', 'AIzaSyBGqnTxfGMly2mQUsTBHtyqXLxsw2hHWI4'); // YOUR ACTUAL GOOGLE CLOUD API KEY
+define('GOOGLE_API_KEY', 'YOUR_API_KEY'); // YOUR ACTUAL GOOGLE CLOUD API KEY
 define('UPLOADS_DIR', __DIR__ . '/uploads/');
 define('VISION_API_URL', 'https://vision.googleapis.com/v1/images:annotate?key=' . GOOGLE_API_KEY);
 define('GEMINI_TEXT_MODEL_URL', 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=' . GOOGLE_API_KEY);
